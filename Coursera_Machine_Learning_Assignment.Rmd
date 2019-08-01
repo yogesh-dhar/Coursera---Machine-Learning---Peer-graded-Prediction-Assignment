@@ -89,9 +89,8 @@ Testing <- train_final[-inTrain, ]
 dim(Training);dim(Testing)
 # We have 11776 observations in the Training dataset and 7846 observations in Testing dataset.
 ```
-
 ### Approach to Prediction models
-For this project I have used FOUR different models to figure out the one with maximum accuracy out of sample dataset. Following are the FOUR models I am going to use:
+For this project I have used FOUR different models to figure out the one with maximum accuracy (prediction rate) out of sample dataset. Following are the models I am going to use:
 
 Recursive Partitioning and Regression Trees (rpart) 
 Generalized Boosted Models (gbm) 
