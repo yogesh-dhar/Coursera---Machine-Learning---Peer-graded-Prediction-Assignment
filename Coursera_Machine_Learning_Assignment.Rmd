@@ -91,7 +91,7 @@ dim(Training);dim(Testing)
 ```
 
 ### Approach to Prediction models
-For this project I have used three different models to figure out the one with maximum accuracy out of sample dataset. Following are the FOUR models I am going to use:
+For this project I have used FOUR different models to figure out the one with maximum accuracy out of sample dataset. Following are the FOUR models I am going to use:
 
 Recursive Partitioning and Regression Trees (rpart) 
 Generalized Boosted Models (gbm) 
@@ -99,7 +99,7 @@ Random Forest Decision Trees (rf)
 Boosted Logistic Regression (LogitBoost)
 
 ### Cross validation
-I have applied Cross validation for each model with K = 3 by using the trainControl object as defined below. This method has been used to control the computational nuances
+I have applied Cross validation for each model with K = 3 by using the trainControl object as defined below. This method has been used to control the computational nuances.
 ```{r, echo=TRUE}
 train_control <- trainControl(method="repeatedcv", number=3)
 ```
