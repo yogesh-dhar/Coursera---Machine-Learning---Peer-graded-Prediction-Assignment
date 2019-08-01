@@ -87,7 +87,7 @@ inTrain <- createDataPartition(y=train_final$classe, p=0.7, list=FALSE)
 Training <- train_final[inTrain,] 
 Testing <- train_final[-inTrain, ]
 dim(Training);dim(Testing)
-# We have 11776 observations in the Training dataset and 7846 observations in Testing dataset.
+# We have 13737 observations in the Training dataset and 5885 observations in Testing dataset.
 ```
 ### Approach to Prediction models
 For this project I have used FOUR different models to figure out the one with maximum accuracy (prediction rate) out of sample dataset. Following are the models I am going to use:
